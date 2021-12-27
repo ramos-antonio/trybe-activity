@@ -39,11 +39,34 @@ mudarDeCor1(square1);
 
 // 4. Crie uma função que corrija o texto da tag <h1>.
 const h1 = document.querySelector('h1');
-console.log(h1);
+// console.log(h1);
 function corrigirH1(h1) {
   return h1.innerText = "Exercício 5.1 - JavaScript"
 }
 corrigirH1(h1);
 
 // 5. Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+// const tag1 = document.getElementsByTagName("p");
+// console.log(tag1);
+// function paragraphUpperCase(tag1) {
+//   for (let index = 0; index < tag1.length; index += 1)
+//   return tag1[index].innerHTML = tag1.innerHTML.toUpperCase();
+// }
+// paragraphUpperCase(tag1);
 
+    // Exercício 5
+    function paragraphUpperCase() {
+      let paragraph = document.getElementsByTagName('p')[0];
+      paragraph.innerHTML = paragraph.innerHTML.toUpperCase();
+    }
+    paragraphUpperCase();
+
+    // Exercício 6
+    function showParagraphs() {
+      let paragraphs = document.getElementsByTagName('p');
+      for (let index = 0; index < paragraphs.length; index += 1) {
+        console.log(paragraphs[index].innerHTML);
+      }
+    }
+    showParagraphs();
+    
