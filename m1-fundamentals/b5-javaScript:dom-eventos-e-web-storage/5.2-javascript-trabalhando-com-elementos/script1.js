@@ -34,7 +34,7 @@ const oitavo = document.getElementById("pai").firstElementChild.nextElementSibli
 const primeiro2 = document.getElementById("pai");
 // console.log(primeiro2);
 const primeiro22 = document.createElement("section");
-primeiro22.id = "irmaoElementoOndeVoceEsta"
+primeiro22.id = "quintoFilho"
 primeiro2.appendChild(primeiro22);
 // console.log(primeiro22);
 
@@ -57,3 +57,18 @@ terceiro2.appendChild(terceiro22);
 //4-A partir desse filho criado, acesse terceiroFilho.
 const quarto2 = document.getElementById("primeiroFilhoDoFilhoDoFilho").parentElement.parentElement.nextElementSibling;
 // console.log(quarto2);
+
+//Remova todos os elementos filhos de paiDoPai exceto pai , elementoOndeVoceEsta e primeiroFilhoDoFilho.
+const ultimo = document.getElementById("pai");
+// console.log(ultimo);
+for (let index = ultimo.childNodes.length - 1; index >= 0; index -= 1) {
+  const currentChildren = ultimo.childNodes[index];
+  if (currentChildren.id !== 'elementoOndeVoceEsta') {
+    currentChildren.remove();
+  }
+}
+const segundoEUltimoFilhoDoFilho = document.getElementById('segundoEUltimoFilhoDoFilho');
+segundoEUltimoFilhoDoFilho.remove();
+
+const final = document.getElementById("pai");
+// console.log(final);
