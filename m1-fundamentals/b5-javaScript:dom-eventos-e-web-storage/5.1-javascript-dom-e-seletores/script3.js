@@ -22,9 +22,28 @@ function mudarTexto(tag) {
 mudarTexto(tag);
 
 //2. Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
-const squad = document.querySelector("main")
-// console.log(squad);
-function mudrarDeCor(squad) {
-  return squad.style.backgroundColor = "rgb(76,164,109)";
+const square = document.getElementsByClassName("main-content")
+// console.log(square);
+function mudarDeCor(square) {
+  return square[0].style.backgroundColor = "rgb(76,164,109)";
 }
-mudrarDeCor(squad);
+mudarDeCor(square);
+
+//3. Crie uma função que mude a cor do quadrado vermelho para branco.
+const square1 = document.getElementsByClassName("center-content")
+// console.log(square1);
+function mudarDeCor1(square1) {
+  return square1[0].style.backgroundColor = "white";
+}
+mudarDeCor1(square1);
+
+// 4. Crie uma função que corrija o texto da tag <h1>.
+const h1 = document.querySelector('h1');
+console.log(h1);
+function corrigirH1(h1) {
+  return h1.innerText = "Exercício 5.1 - JavaScript"
+}
+corrigirH1(h1);
+
+// 5. Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+
