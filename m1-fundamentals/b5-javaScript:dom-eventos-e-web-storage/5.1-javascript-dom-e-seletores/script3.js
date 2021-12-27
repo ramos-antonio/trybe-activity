@@ -20,3 +20,11 @@ function mudarTexto(tag) {
   tag[index].innerText = "Lorem ipsum dolor sit, amet consectetur adipisicing."
 }
 mudarTexto(tag);
+
+//2. Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
+const squad = document.querySelector("main")
+// console.log(squad);
+function mudrarDeCor(squad) {
+  return squad.style.backgroundColor = "rgb(76,164,109)";
+}
+mudrarDeCor(squad);
