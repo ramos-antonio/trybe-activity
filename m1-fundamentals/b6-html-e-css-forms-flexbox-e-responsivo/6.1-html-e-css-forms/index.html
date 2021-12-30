@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+  </head>
+  <body>
+    <form id="input-form" action="index1.html" method="get" enctype="multipart/form-data">
+      <div id="box0">
+        <fieldset>
+          <legend>Nome completo</legend>
+          <label for="input-name">Nome completo:</label>
+          <input id="input-name" type="text" name="name" placeholder="Digite seu nome completo" required autofocus>
+        </fieldset>
+      </div>
+      <div id="box1">
+        <fieldset>
+          <legend>E-mail</legend>
+          <label for="input-email">e-mail:</label>
+          <input id="input-email" type="email" name="email" value="" placeholder="Digite seu email" required autocomplete="off">
+        </fieldset>
+      </div>
+      <div id="box2">
+        <fieldset>
+          <legend>Senha</legend>
+          <label for="input-password">senha:</label>
+          <input id="input-password" type="password" name="password" value="" placeholder="Digite sua senha" required>
+        </fieldset>
+      </div>
+      <div id="box3">
+        <fieldset>
+          <legend>Tech</legend>
+          <label for="">Git</label>
+          <input id="" type="checkbox" name="" value="">
+        </fieldset>
+      </div>
+      <div id="box4">
+        <fieldset>
+          <legend>Estado</legend>
+          <label for="input-estado">Estado</label>
+          <select id="input-estado" name="input-estado" required>
+            <option selected value="">Selecione seu estado</option>
+            <option value="al">Alagoas</option>
+            <option value="ba">Bahia</option>
+            <option value="ce">Ceará</option>
+            <option value="ma">Maranhão</option>
+            <option value="pb">Paraíba</option>
+            <option value="pe">Pernanbuco</option>
+            <option value="pi">Piauí</option>
+            <option value="rn">Rio Grande do Norte</option>
+          </select>
+        </fieldset>
+      </div>
+      <div id="box5">
+        <fieldset>
+          <legend>Texto</legend>
+          <label for="readme">Sobre mim:</label>
+          <br>
+          <textarea id="readme" name="readme" maxlength="100" cols="30" rows="10" placeholder="Conte-nos um pouco mais sobre você"></textarea>
+          <div>Conte-nos um pouco mais sobre você</div>
+        </fieldset>
+      </div>
+      <div id="box5">
+        <fieldset>
+          <legend>Conclusão</legend>
+          <label for="conclusao-sim">Sim</label>
+          <input id="conclusao-sim" type="radio">
+          <label for="conclusao-nao">Não</label>
+          <input id="conclusao-nao" type="radio">
+        </fieldset>
+      </div>
+      <div id="box6">
+        <fieldset>
+          <legend>Entrar</legend>
+          <input id="lembreme" type="checkbox" name="lembrete" value="yes">
+          <label for="lembreme">Lembre-me</label>
+          <button id="bt" type="submit">Entrar</button>
+        </fieldset>
+      </div>
+      </form>
+  </body>
+</html>
+
+<!--
+  Exercício
+1-Adicione os campos de entrada para email e senha.
+2-Adicione um checkbox com o texto Lembre-me.
+3-Adicione um botão com o texto Entrar.
+4-Adicione os placeholder Digite seu email e Digite sua senha para os campos de email e senha.
+5-Adicione o atributo required para os campos de email e senha.
+6-Adicione o atributo autocomplete="off" para o campo de email.
+7-Adicione o atributo autofocus para o campo de email.
+
+Além das questões respondidas foram implementadas outras informações, para fins de treinamento.
+-->
