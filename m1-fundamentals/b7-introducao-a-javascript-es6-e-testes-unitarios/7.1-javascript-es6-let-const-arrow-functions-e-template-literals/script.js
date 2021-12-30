@@ -1,3 +1,5 @@
+//------------------ Parte I - var, let e const ------------------//
+
 // function userInfo() {
 //   let userEmail = 'maria@email.com';
 //   // Toda expressão dentro do escopo da função userInfo tem acesso à variável userEmail
