@@ -61,3 +61,7 @@ const sortArrayBonus = array => {
 }
 const sortedArrayBonus = sortArrayBonus(oddsAndEvens1);
 console.log(`Os números ${sortedArrayBonus} se encontram ordenados de forma crescente!`);
+
+// array.sort com sort em uma linha.
+const oddsAndEvens2 = [13, 3, 4, 10, 7, 2];
+console.log(`Os números ${oddsAndEvens2.sort((a, b) => a - b)} se encontram ordenados de forma crescente!`);
