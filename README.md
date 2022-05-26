@@ -203,12 +203,12 @@
 - 30.3: Updates Complexos - Arrays - Parte 2
 - 30.4: Projeto - Commerce
 
-### Bloco 31: MasterClass - VPS, CI/CD
-- 31.1: Dia 1
-- 31.2: Dia 2
+### Bloco 31: Projeto - App de Delivery
+- 31.1: Projeto - App de Delivery
 
-### Bloco 32: Projeto - App de Delivery
-- 32.1: Projeto - App de Delivery
+### Bloco 32: MasterClass - VPS, CI/CD
+- 32.1: Dia 1
+- 32.2: Dia 2
 
 ## Ciência da Computação
 
